@@ -165,6 +165,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Email: junaidsupercoder@gmail.com
 - LinkedIn: [linkedin.com/in/junaid-jamel](https://www.linkedin.com/in/junaid-jamel/)
+  
+- If you liked the repo then kindly support it by giving it a star ⭐!
+
+
 
 ---
 
