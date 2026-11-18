@@ -26,7 +26,7 @@ class FoodService {
         },
         body: jsonEncode({
           'model':
-              'meta-llama/llama-4-scout-17b-16e-instruct', // free vision model
+              'qwen/qwen3.8-27b', // free vision model
           'messages': [
             {
               'role': 'user',
