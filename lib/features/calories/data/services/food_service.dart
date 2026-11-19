@@ -46,7 +46,7 @@ class FoodService {
               ],
             },
           ],
-          'max_tokens': 200,
+          'max_tokens': 1000,
         }),
       );
 

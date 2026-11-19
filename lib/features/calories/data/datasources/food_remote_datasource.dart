@@ -53,7 +53,7 @@ class FoodRemoteDataSource {
               ],
             },
           ],
-          'max_tokens': 200,
+          'max_tokens': 1000,
         },
       );
 
@@ -64,7 +64,7 @@ class FoodRemoteDataSource {
             return left(NetworkFailure('Invalid API response', cause: data));
           }
 
-          final match = RegExp(r'\\{.*\\}', dotAll: true).firstMatch(output);
+          final match = RegExp(r'\{.*\}', dotAll: true).firstMatch(output);
           if (match == null) {
             return left(NetworkFailure('No JSON found in response', cause: output));
           }
